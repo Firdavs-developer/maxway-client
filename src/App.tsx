@@ -1,15 +1,19 @@
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Burger from "./components/burger/Burger";
+import Pitsa from "./components/pitsa/Pitsa";
 
 const App = () => {
-	return (
-		<>
-			<Header />
-			<Footer />
-		</>
-	)
-}
+  return (
+    <>
+      <Header />
+      <Pitsa />
+      <Burger />
+      <Footer />
+    </>
+  );
+};
 
-export default App
+export default App;
 
 // <></> -> React.Fragment -> Fragment
